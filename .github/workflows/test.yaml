@@ -13,7 +13,7 @@ jobs:
       - uses: Xotabu4/selenoid-github-action@v2
 
       - run: npm install -g bats
-      - run: ./gradlew clean test -Dselenide.remote=http://localhost:4444/wd/hub
+      - run: ./gradlew clean test -Dselenide.remote=http://31.129.108.4/:4444/wd/hub -Dremote_driver_url=http://31.129.108.4:4444/wd/hub/
 
       - name: Get Allure history
         uses: actions/checkout@v2
