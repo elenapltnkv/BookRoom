@@ -1,0 +1,1 @@
+{"uuid":"d3b5eee6-0f48-4c68-a430-feed50e5088d","name":"BookRoomTest","children":["9caaf5c0-4838-4246-902f-dcfa6e407c73"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1705493416285,"stop":1705493416306}],"afters":[],"start":1705493416232,"stop":1705493430949}
